@@ -1,0 +1,975 @@
+echo "# New-Nexus" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Student808/New-Nexus.git
+git push -u origin main
+                <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>New Nexus</title>
+  <style type="text/css">
+  body {
+    padding-left: 11em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    color: black;
+    }
+body {
+  background-image: url("https://static.wixstatic.com/media/464d8a_663d561af1e4460c9cc230b2af5cf144~mv2.jpg");
+}
+ ul.navhomepageone {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 97em;
+    left: 68em;
+    width: 5em }
+ ul.navhomepageone li {
+    background: h4;
+    font-family: Castellar;
+    margin: 5em 0;
+    padding: 10em; }
+ ul.navhomepageone a {
+    text-decoration: none }
+  a:link {
+    color: red }
+  a:visited {
+    color: purple }
+ul.navhomepagetwo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 68.5em;
+    left: 68em;  
+    width: 9em }
+ ul.navhomepagetwo li {
+    font-family: Castellar;
+    background: h5;
+    margin: 5em 0;
+    padding: 10em; }
+ ul.navhomepagetwo a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ ul.navhomepagethree {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 41em;
+    left: 67.5em;
+    width: 9em }
+ ul.navhomepagethree li {
+    background: H5;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar;
+    }
+ ul.navhomepagethree a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ ul.navhomepagefour {
+    list-style-type: none;
+    padding: 0;
+    margin: 5;
+    position: absolute;
+    top: 40em;
+    left: 39em;
+    width: 20em }
+ ul.navhomepagefour li {
+    background: H9;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar;
+     }
+ ul.navhomepagefour a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepagefive {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 69em;
+    left: 40em;
+    width: 9em }
+ ul.navhomepagefive li {
+    background: H8;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar;
+     }
+ ul.navhomepagefive a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepagesix {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 92em;
+    left: 38.5em;
+    width: 5em }
+ ul.navhomepagesix li {
+    background: H7;
+    margin: 10em 0;
+    padding: 10em;
+    font-family: Castellar;}
+ ul.navhomepagesix a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepageseven {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 41em;
+    left: 10em;
+    width: 9em }
+ ul.navhomepageseven li {
+    background: H10;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar;
+     }
+ ul.navhomepageseven a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepageeight {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 68em;
+    left: 10em;
+    width: 9em }
+ ul.navhomepageeight li {
+    background: H11;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar; }
+ ul.navhomepageeight a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepagenine {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 96.5em;
+    left: 10em;
+    width: 9em }
+ ul.navhomepagenine li {
+    background: H12;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar; }
+ ul.navhomepagenine a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+ul.navhomepageNEWS {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 96.5em;
+    left: 10em;
+    width: 9em }
+ ul.navhomepageNEWS li {
+    background: H12;
+    margin: 5em 0;
+    padding: 10em;
+    font-family: Castellar; }
+ ul.navhomepageNEWS a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: purple }
+  h1 {
+    margin-bottom: .01em;
+    padding-bottom: .01em;
+    padding-left: 7em;
+    font-size: 70px;
+    font-family:  "Vivaldi"}
+h1 {
+  color: white;
+  text-shadow: 8px 8px 64px #000000;
+}
+  h3 {
+    margin-bottom: .01em;
+    padding-bottom: .01em;
+    padding-left: 35em;
+    font-size: 15px;
+    color: white;
+    font-family:  "Castellar"}
+ ul.navbar li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid #FFCC00 }
+ ul.navbar a {
+    text-decoration: none }
+  a:link {
+    color: black }
+  a:visited {
+    color: black }
+ ul.navbar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 5em;
+    left: 1em;
+    width: 9em }
+ul.navbarone li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid black }
+ ul.navbarone a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarone {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 2em;
+    left: 1em;
+    width: 9em }
+ul.navbartwo li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid  #FF0000}
+ ul.navbartwo a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbartwo {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 8em;
+    left: 1em;
+    width: 9em }
+ul.navbarthree li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid green }
+ ul.navbarthree a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarthree {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 11em;
+    left: 1em;
+    width: 9em }
+ul.navbarfour li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid blue }
+ ul.navbarfour a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarfour {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 14em;
+    left: 1em;
+    width: 9em }
+ul.navbarfive li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid green }
+ ul.navbarfive a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarfive {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 17em;
+    left: 1em;
+    width: 9em }
+ul.navbarsix li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid red }
+ ul.navbarsix a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarsix {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 20em;
+    left: 1em;
+    width: 9em }
+ul.navbarseven li {
+    background: black;
+    margin: 0.5em 0;
+    border-radius: 4px;
+    padding: 0.3em;
+    border-right: 1em solid #FFCC00 }
+ ul.navbarseven a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarseven {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 23em;
+    left: 1em;
+    width: 9em }
+ul.navbareight li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid blue }
+ ul.navbareight a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbareight {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 26em;
+    left: 1em;
+    width: 9em }
+ul.navbarnine li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid blue }
+ ul.navbarnine a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarnine {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 29em;
+    left: 1em;
+    width: 9em }
+ul.navbarforum li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid gray }
+ ul.navbarforum a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarforum {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 32em;
+    left: 1em;
+    width: 9em }
+ul.navbarmembers li {
+    background: black;
+    margin: 0.5em 0;
+    padding: 0.3em;
+    border-radius: 4px;
+    border-right: 1em solid gray }
+ ul.navbarmembers a {
+    text-decoration: none }
+  a:link {
+    color: white }
+  a:visited {
+    color: purple }
+ ul.navbarmembers {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 35em;
+    left: 1em;
+    width: 9em }
+ul.navhomepageNEWS li {
+    background: h14 ;
+    margin: 5em 0;
+    padding: 5em;
+     }
+ ul.navhomepageNEWS a {
+  text-decoration: none
+  border: red;
+  color: white;
+  background: red;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+   border-radius: 10px; 
+  display: inline-block;
+  font-size: 20px;
+  margin: 0px 36px;
+  cursor: pointer;
+ }
+  a:link {
+    color: white }
+  a:visited {
+    color: white }
+ ul.navhomepageNEWS {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    color: blue;
+    background: h14;
+    position: absolute;
+    top: 127em;
+    left: 36em;
+    width: 25em }
+ address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+ address {
+    margin-top: 1em;
+    padding-top: 1em;
+    border-top: thin dotted }
+ video {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 12em;
+    left: 300em;
+    width: 20em }
+video {
+  width: 200px;
+  box-shadow: 0 10px 12px 0 rgba(255,0,0,0.3), 0 20px 20px 0 rgba(255,0,0,0.3);
+  transform: rotateY(130deg);
+  transform: rotateX(10deg);
+  translate(50px,75px);
+  transition-property: width;
+  transition: width 4s, height 10s, transform 8s;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 1s;
+  animation: mymove 10s infinite;
+  animationname: change
+}
+
+h2:hover {
+  width: 300px;
+  height: 300px;
+}
+@keyframes mymove {
+  from {left: 360px;}
+  to {left: 361px;}
+}
+h2 {
+  padding: 10px;
+}
+h4 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 95.5em;
+    left: 70.2em;
+    width: 12em }
+h4 {
+  box-shadow: 160px 9px;
+  background-color: red;
+  color: red;
+}
+h5 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 81.5em;
+    left: 84.6em;
+    width: 9em }
+h5 {
+  box-shadow: 230px 9px;
+  background-color: green;
+  color: green;
+}
+h6 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 59.7em;
+    left: 105em;
+    width: 12em }
+h7 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 95.5em;
+    left: 42.5em;
+    width: 12em }
+h6 {
+  box-shadow: 220px 9px;
+  background-color: rgb(61, 72, 246);
+  color: rgb(61, 72, 246);
+}
+h7 {
+  box-shadow: 155px 9px;
+  background-color: rgb(61, 72, 246);
+  color: rgb(61, 72, 246);
+}
+h8 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 67.7em;
+    left: 42.5em;
+    width: 9em }
+h8 {
+  box-shadow: 200px 9px;
+  background-color: rgb(255,215,0);
+  color: rgb(255,215,0);
+}
+h9 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40em;
+    left: 42.5em;
+    width: 9em }
+h9 {
+  box-shadow: 200px 9px;
+  background-color: red;
+  color: red;
+}
+h10 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 40em;
+    left: 13.5em;
+    width: 9em }
+h10 {
+  box-shadow: 200px 9px;
+  background-color: rgb(61, 72, 246);
+  color: rgb(61, 72, 246);
+}
+h11 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 67.7em;
+    left: 13.5em;
+    width: 9em }
+h11 {
+  box-shadow: 200px 10px;
+  background-color: rgb(143,0,255);
+  color: rgb(143,0,255);
+}
+h12 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 95em;
+    left: 13.5em;
+    width: 9em }
+h12 {
+  box-shadow: 200px 10px;
+  background-color: green;
+  color: green;
+}
+h13 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 125em;
+    left: 9em;
+    width: 9em }
+h14 {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 130em;
+    left: 37em;
+    border-radius: 16px;
+    width: 9em }
+button {
+  border: red;
+  color: white;
+  font-family: Castellar;
+  background: red;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 36px -12px;
+  cursor: pointer;
+} 
+buttonone {
+  border: red;
+  color: black;
+  background: green;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 36px -10px;
+  cursor: pointer;
+} 
+buttontwo {
+  border: red;
+  color: white;
+  background: blue;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonthree {
+  border: red;
+  color: white;
+  background: red;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonfour {
+  border: red;
+  color: white;
+  background: #FFCC00;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonfive {
+  border: red;
+  color: white;
+  background: red;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonfive {
+border-radius: 12px;
+}
+buttonsix {
+  border: red;
+  color: white;
+  background: blue;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonseven {
+  border: red;
+  color: white;
+  background: #FFCC00;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttoneight {
+  border: red;
+  color: white;
+  background: green;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 32px -10px;
+  cursor: pointer;
+} 
+buttonnine {
+  border: red;
+  color: white;
+  background: red;
+  padding: 10px 10px;
+  text-align: center;
+  top: 150em;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 10px 10px;
+  cursor: pointer;
+} 
+video {
+  width: 60%;
+  height:370px;
+}
+  </style>
+<center>
+  </center>
+  <h4>
+  <img src="https://static.wixstatic.com/media/faca3f_d24f51ed7be04a7899159ad85df3a96d~mv2.jpg" alt="LACC campus" width="340"
+         height="400">
+  </h4>
+ <h5>
+  <img src="https://static.wixstatic.com/media/faca3f_1f332debe639446597a1426e388a28fd~mv2.jpg" alt="ELAC campus" width="340"
+         height="400">
+  </h5>
+ <h6>
+  <img src="https://static.wixstatic.com/media/faca3f_05698d395ae44746b36f21a686ff6969~mv2.jpg" alt="WLAC campus" width="337"
+         height="400">
+  </h6>
+<h7>
+  <img src="https://static.wixstatic.com/media/faca3f_3752cbb222d64786b817a00bd263af5e~mv2.jpg" alt="LAMC campus" width="337"
+         height="400">
+  </h7>
+<h8>
+  <img src="https://static.wixstatic.com/media/faca3f_1ce8da57e4d14e25b8b656cae010f109~mv2.jpg" alt="LASC campus" width="337"
+         height="400">
+  </h8>
+<h9>
+  <img src="https://static.wixstatic.com/media/faca3f_6d2a510128e949a3a78ffbef9fd830c5~mv2.jpg" alt="LAPC campus" width="337"
+         height="400">
+  </h9>
+<h10>
+  <img src="https://static.wixstatic.com/media/faca3f_bdbc5422ebca498581a99aacb98e1570~mv2.jpg" alt="LAHC campus" width="337"
+         height="400">
+  </h10>
+<h11>
+  <img src="https://static.wixstatic.com/media/faca3f_5beea9df2ac4419484586c37f5896979~mv2.jpg" alt="LATTC campus" width="337"
+         height="400">
+  </h11>
+<h12>
+  <img src="https://static.wixstatic.com/media/faca3f_670e8df2e37b4a05b9692f5f2588a13d~mv2.jpg" alt="LAVC campus" width="337"
+         height="400">
+  </h12>
+ <h13> 
+  <img src="https://static.wixstatic.com/media/faca3f_1ad1c346ac6443bea69ce26d5da8323f~mv2.jpg" alt="Logo for colleges" width="1250"
+         height="400">
+  </h13>
+
+<meta name="viewport" content="width=device-width, initial-scale=3.0">
+
+  </head>
+
+<body>
+
+<video width="1200" controls>
+  <source src="C:\Users\Stevie Carpenter\Downloads\New Nexus\New Nexus Logo Homepage.mp4" type="video/mp4">
+</video>
+
+<!-- Site navigation menu -->
+<ul class="navbar">
+    <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LATTC Homepage.html">LATTC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbartwo">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LACC Homepage.html">LACC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarthree">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\ELAC Homepage.html">ELAC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarfour">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\WLAC Homepage.html">WLAC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarfive">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAVC Homepage.html">LAVC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarsix">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAPC Homepage.html">LAPC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarseven">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LASC Homepage.html">LASC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbareight">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAMC Homepage.html">LAMC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarnine">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAHC Homepage.html">LAHC</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarforum">
+  <li><a href="Forum.html">Forum</a>
+</ul>
+
+<!-- Site navigation menu -->
+<ul class="navbarmembers">
+  <li><a href="Members.html">Members</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepageone">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LACC Homepage.html">Los Angeles City College</a>
+ </ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagetwo">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\ELAC Homepage.html">East Los Angeles College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagethree">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\WLAC Homepage.html">West Los Angeles College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagefour">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAPC Homepage.html">Los Angeles Pierce College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagefive">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LASC Homepage.html">Los Angeles Southwest College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagesix">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAMC Homepage.html">Los Angeles Mission College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepageseven">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAHC Homepage.html">Los Angeles Harbor College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepageeight">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LATTC Homepage.html">Los Angeles Technical Trade College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepagenine">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\LAVC Homepage.html">Los Angeles Valley College</a>
+</ul>
+
+<!-- Site navigation Home Page -->
+<ul class="navhomepageNEWS">
+  <li><a href="C:\Users\Stevie Carpenter\Desktop\New Nexus\News page.html">New Nexus News</a>
+</ul>
+
+<!-- Main content -->
+<h1>New Nexus</h1>
+<h3>Advocate for the Future</h3>
+
+</body>
+</html>
